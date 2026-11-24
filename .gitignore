@@ -1,0 +1,35 @@
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# macOS
+.DS_Store
+
+# Core ML — generated model, not source. Train it on a Mac with:
+#   cd WaitTimeTrainer && swift TrainWaitTime.swift
+# then add WaitTimePredictor.mlmodel to the QueueSense target in Xcode.
+WaitTimePredictor.mlmodel
+WaitTimePredictor.mlmodelc
